@@ -1,0 +1,377 @@
+[{
+	"traceId": "800a8f9572bc21d5",
+	"parentId": "9e3f22e5b1b01e7d",
+	"id": "123dfca8ec47e9da",
+	"kind": "SERVER",
+	"name": "acq-s3",
+	"timestamp": 1564571621000975,
+	"duration": 1000000,
+	"localEndpoint": {
+		"serviceName": "acquire",
+		"ipv4": "192.128.40.1"
+	},
+	"shared": true
+},
+{
+	"traceId": "800a8f9572bc21d5",
+	"parentId": "e35f754e79100a60",
+	"id": "9e3f22e5b1b01e7d",
+	"kind": "SERVER",
+	"name": "movestage-s3",
+	"timestamp": 1564571618000975,
+	"duration": 3000000,
+	"localEndpoint": {
+		"serviceName": "movestage",
+		"ipv4": "192.128.40.1"
+	},
+	"shared": true
+},
+{
+	"traceId": "800a8f9572bc21d5",
+	"parentId": "11fe2320b854d7a5",
+	"id": "87ba4e3ee50d4a32",
+	"kind": "SERVER",
+	"name": "ps-algoab",
+	"timestamp": 1564571618000975,
+	"duration": 1000000,
+	"localEndpoint": {
+		"serviceName": "proc-algoab",
+		"ipv4": "192.128.40.1"
+	},
+	"shared": true
+},
+{
+	"traceId": "800a8f9572bc21d5",
+	"parentId": "f446a12ca7b36ece",
+	"id": "7c2166a3ea6c0443",
+	"kind": "SERVER",
+	"name": "ps-algoab",
+	"timestamp": 1564571630000975,
+	"duration": 1000000,
+	"localEndpoint": {
+		"serviceName": "proc-algoab",
+		"ipv4": "192.128.40.1"
+	},
+	"shared": true
+},
+{
+	"traceId": "800a8f9572bc21d5",
+	"parentId": "cd7dc7a8fd2905e5",
+	"id": "e35f754e79100a60",
+	"kind": "SERVER",
+	"name": "align-1",
+	"timestamp": 1564571609000975,
+	"duration": 1000000,
+	"localEndpoint": {
+		"serviceName": "alignment",
+		"ipv4": "192.128.40.1"
+	},
+	"shared": true
+},
+{
+	"traceId": "800a8f9572bc21d5",
+	"parentId": "39645491fa8962c2",
+	"id": "5fdb3a88562ab947",
+	"kind": "SERVER",
+	"name": "ps-algocd",
+	"timestamp": 1564571615000975,
+	"duration": 1000000,
+	"localEndpoint": {
+		"serviceName": "proc-algocd",
+		"ipv4": "192.128.40.1"
+	},
+	"shared": true
+},
+{
+	"traceId": "800a8f9572bc21d5",
+	"id": "cd7dc7a8fd2905e5",
+	"kind": "CLIENT",
+	"name": "jobrun-1",
+	"timestamp": 1564571606976493,
+	"duration": 26024482,
+	"localEndpoint": {
+		"serviceName": "jobrun",
+		"ipv4": "192.128.40.1"
+	}
+},
+{
+	"traceId": "800a8f9572bc21d5",
+	"parentId": "11fe2320b854d7a5",
+	"id": "6e02ea59b8392986",
+	"kind": "SERVER",
+	"name": "ps-algocd",
+	"timestamp": 1564571619000975,
+	"duration": 1000000,
+	"localEndpoint": {
+		"serviceName": "proc-algocd",
+		"ipv4": "192.128.40.1"
+	},
+	"shared": true
+},
+{
+	"traceId": "800a8f9572bc21d5",
+	"parentId": "123dfca8ec47e9da",
+	"id": "bbb2834a13bfb32c",
+	"kind": "SERVER",
+	"name": "ps-algoab",
+	"timestamp": 1564571622000975,
+	"duration": 1000000,
+	"localEndpoint": {
+		"serviceName": "proc-algoab",
+		"ipv4": "192.128.40.1"
+	},
+	"shared": true
+},
+{
+	"traceId": "800a8f9572bc21d5",
+	"parentId": "e35f754e79100a60",
+	"id": "b6c616a26fdd9bea",
+	"kind": "SERVER",
+	"name": "movestage-s4",
+	"timestamp": 1564571622000975,
+	"duration": 3000000,
+	"localEndpoint": {
+		"serviceName": "movestage",
+		"ipv4": "192.128.40.1"
+	},
+	"shared": true
+},
+{
+	"traceId": "800a8f9572bc21d5",
+	"parentId": "e35f754e79100a60",
+	"id": "0b3c833d453be660",
+	"kind": "SERVER",
+	"name": "movestage-s2",
+	"timestamp": 1564571614000975,
+	"duration": 3000000,
+	"localEndpoint": {
+		"serviceName": "movestage",
+		"ipv4": "192.128.40.1"
+	},
+	"shared": true
+},
+{
+	"traceId": "800a8f9572bc21d5",
+	"parentId": "39645491fa8962c2",
+	"id": "0ee865e43c549524",
+	"kind": "SERVER",
+	"name": "ps-algoab",
+	"timestamp": 1564571614000975,
+	"duration": 1000000,
+	"localEndpoint": {
+		"serviceName": "proc-algoab",
+		"ipv4": "192.128.40.1"
+	},
+	"shared": true
+},
+{
+	"traceId": "800a8f9572bc21d5",
+	"parentId": "11fe2320b854d7a5",
+	"id": "c4d1a22afddcd8b3",
+	"kind": "SERVER",
+	"name": "ps-algoef",
+	"timestamp": 1564571620000975,
+	"duration": 1000000,
+	"localEndpoint": {
+		"serviceName": "proc-algoef",
+		"ipv4": "192.128.40.1"
+	},
+	"shared": true
+},
+{
+	"traceId": "800a8f9572bc21d5",
+	"parentId": "f97abde376d1c99a",
+	"id": "d957f61dffdcf56c",
+	"kind": "SERVER",
+	"name": "ps-algoab",
+	"timestamp": 1564571626000975,
+	"duration": 1000000,
+	"localEndpoint": {
+		"serviceName": "proc-algoab",
+		"ipv4": "192.128.40.1"
+	},
+	"shared": true
+},
+{
+	"traceId": "800a8f9572bc21d5",
+	"parentId": "e35f754e79100a60",
+	"id": "bbac702f7cad4e1f",
+	"kind": "SERVER",
+	"name": "movestage-s5",
+	"timestamp": 1564571626000975,
+	"duration": 3000000,
+	"localEndpoint": {
+		"serviceName": "movestage",
+		"ipv4": "192.128.40.1"
+	},
+	"shared": true
+},
+{
+	"traceId": "800a8f9572bc21d5",
+	"parentId": "bbac702f7cad4e1f",
+	"id": "f446a12ca7b36ece",
+	"kind": "SERVER",
+	"name": "acq-s5",
+	"timestamp": 1564571629000975,
+	"duration": 1000000,
+	"localEndpoint": {
+		"serviceName": "acquire",
+		"ipv4": "192.128.40.1"
+	},
+	"shared": true
+},
+{
+	"traceId": "800a8f9572bc21d5",
+	"parentId": "123dfca8ec47e9da",
+	"id": "8fe701464805e6d4",
+	"kind": "SERVER",
+	"name": "ps-algocd",
+	"timestamp": 1564571623000975,
+	"duration": 1000000,
+	"localEndpoint": {
+		"serviceName": "proc-algocd",
+		"ipv4": "192.128.40.1"
+	},
+	"shared": true
+},
+{
+	"traceId": "800a8f9572bc21d5",
+	"parentId": "f97abde376d1c99a",
+	"id": "23741d955f72b702",
+	"kind": "SERVER",
+	"name": "ps-algocd",
+	"timestamp": 1564571627000975,
+	"duration": 1000000,
+	"localEndpoint": {
+		"serviceName": "proc-algocd",
+		"ipv4": "192.128.40.1"
+	},
+	"shared": true
+},
+{
+	"traceId": "800a8f9572bc21d5",
+	"parentId": "0b3c833d453be660",
+	"id": "11fe2320b854d7a5",
+	"kind": "SERVER",
+	"name": "acq-s2",
+	"timestamp": 1564571617000975,
+	"duration": 1000000,
+	"localEndpoint": {
+		"serviceName": "acquire",
+		"ipv4": "192.128.40.1"
+	},
+	"shared": true
+},
+{
+	"traceId": "800a8f9572bc21d5",
+	"parentId": "b6c616a26fdd9bea",
+	"id": "f97abde376d1c99a",
+	"kind": "SERVER",
+	"name": "acq-s4",
+	"timestamp": 1564571625000975,
+	"duration": 1000000,
+	"localEndpoint": {
+		"serviceName": "acquire",
+		"ipv4": "192.128.40.1"
+	},
+	"shared": true
+},
+{
+	"traceId": "800a8f9572bc21d5",
+	"parentId": "42a4699f54591b76",
+	"id": "39645491fa8962c2",
+	"kind": "SERVER",
+	"name": "acq-s1",
+	"timestamp": 1564571613000975,
+	"duration": 1000000,
+	"localEndpoint": {
+		"serviceName": "acquire",
+		"ipv4": "192.128.40.1"
+	},
+	"shared": true
+},
+{
+	"traceId": "800a8f9572bc21d5",
+	"parentId": "e35f754e79100a60",
+	"id": "42a4699f54591b76",
+	"kind": "SERVER",
+	"name": "movestage-s1",
+	"timestamp": 1564571610000975,
+	"duration": 3000000,
+	"localEndpoint": {
+		"serviceName": "movestage",
+		"ipv4": "192.128.40.1"
+	},
+	"shared": true
+},
+{
+	"traceId": "800a8f9572bc21d5",
+	"parentId": "f446a12ca7b36ece",
+	"id": "2953ca948765ae55",
+	"kind": "SERVER",
+	"name": "ps-algocd",
+	"timestamp": 1564571631000975,
+	"duration": 1000000,
+	"localEndpoint": {
+		"serviceName": "proc-algocd",
+		"ipv4": "192.128.40.1"
+	},
+	"shared": true
+},
+{
+	"traceId": "800a8f9572bc21d5",
+	"parentId": "39645491fa8962c2",
+	"id": "7ce1b5367afbd9c1",
+	"kind": "SERVER",
+	"name": "ps-algoef",
+	"timestamp": 1564571616000975,
+	"duration": 1000000,
+	"localEndpoint": {
+		"serviceName": "proc-algoef",
+		"ipv4": "192.128.40.1"
+	},
+	"shared": true
+},
+{
+	"traceId": "800a8f9572bc21d5",
+	"parentId": "f446a12ca7b36ece",
+	"id": "92a9da48cee01fdd",
+	"kind": "SERVER",
+	"name": "ps-algoef",
+	"timestamp": 1564571632000975,
+	"duration": 1000000,
+	"localEndpoint": {
+		"serviceName": "proc-algoef",
+		"ipv4": "192.128.40.1"
+	},
+	"shared": true
+},
+{
+	"traceId": "800a8f9572bc21d5",
+	"parentId": "f97abde376d1c99a",
+	"id": "bd1842a6af285b11",
+	"kind": "SERVER",
+	"name": "ps-algoef",
+	"timestamp": 1564571628000975,
+	"duration": 1000000,
+	"localEndpoint": {
+		"serviceName": "proc-algoef",
+		"ipv4": "192.128.40.1"
+	},
+	"shared": true
+},
+{
+	"traceId": "800a8f9572bc21d5",
+	"parentId": "123dfca8ec47e9da",
+	"id": "63a1099d1f674879",
+	"kind": "SERVER",
+	"name": "ps-algoef",
+	"timestamp": 1564571624000975,
+	"duration": 1000000,
+	"localEndpoint": {
+		"serviceName": "proc-algoef",
+		"ipv4": "192.128.40.1"
+	},
+	"shared": true
+}
+]
