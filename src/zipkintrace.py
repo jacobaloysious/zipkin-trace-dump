@@ -5,6 +5,7 @@
 
 import json
 
+
 class ZipkinEndPointModel(object):
 
     def __init__(self):
@@ -25,6 +26,7 @@ class ZipkinSpanModel(object):
         self.localEndpoint = {}
         self.shared = True
 
+
 class ZipkinTracer(object):
     """
     Class to generate ZipKin Trace logs .
@@ -42,6 +44,7 @@ class ZipkinTracer(object):
                                    default=lambda o: o.__dict__,
                                    indent=4, cls=ComplexEncoder)
             tracefile.write(json_dump)
+
 
 class ComplexEncoder(json.JSONEncoder):
 

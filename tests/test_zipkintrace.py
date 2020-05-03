@@ -13,6 +13,7 @@ import json
 
 from tests.context import zipkintrace as z
 
+
 class ZipkinTraceTestSuite(unittest.TestCase):
 
     @staticmethod
@@ -30,7 +31,7 @@ class ZipkinTraceTestSuite(unittest.TestCase):
         # Create Span
         span = z.ZipkinSpanModel()
         span.traceId = "800a8f9572bc21d5"
-        span.parentId = ""  #"e35f754e79100a60"
+        span.parentId = ""  # "e35f754e79100a60"
         span.id = uuid.uuid4().hex
         span.name = ""
         span.timestamp = 1564571618000975
@@ -52,7 +53,7 @@ class ZipkinTraceTestSuite(unittest.TestCase):
         # Assert
         self.assertEqual(len(ztracer.spans), 2)
         self.assertEqual(ztracer.spans[0].traceId, "800a8f9572bc21d5")
-        #self.assertEqual(ztracer.spans[0].id, "d")
+        # self.assertEqual(ztracer.spans[0].id, "d")
 
     def test_save_trace_file(self):
         # Arrange
@@ -77,7 +78,7 @@ class ZipkinTraceTestSuite(unittest.TestCase):
         self.assertEqual(data[0]["traceId"], "800a8f9572bc21d5")
         self.assertEqual(data[0]["localEndpoint"]["serviceName"], "UnitTest_ServiceName")
 
-        #Cleanup
+        # Cleanup
         self.remove_dir(os.path.dirname(tmp_file))
 
     def remove_dir(self, path):
